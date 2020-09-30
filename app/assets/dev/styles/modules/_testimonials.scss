@@ -1,0 +1,78 @@
+.testimonials {
+    width: 100%;
+    margin-bottom: 3rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: .5fr 1fr auto;
+    grid-template-areas: 
+        "head head head"
+        "sub  sub   sub"
+        "body1 body2 body3"      
+    ;
+    &__title {
+        font-size: 3rem;
+        color: $mainBlue;
+        margin-bottom: 1rem;
+        grid-area: head;
+        // background: yellow;
+    }
+    &__subtitle {
+        font-size: 1.5rem;
+        color: $haclight;
+        margin-bottom: 3rem;
+        grid-area: sub;
+        // background: goldenrod;
+    }
+    &__body {
+        &1 {
+            width: 38rem;
+            height: 30rem;
+            grid-area: body1;
+        }
+        &2 {
+            width: 38rem;
+            height: 30rem;
+            grid-area: body2;
+        }
+        &3 {
+            width: 38rem;
+            height: 30rem;
+            grid-area: body3;
+        }
+        
+    }
+    .ppp {
+        display: flex;
+    }
+    .bbb {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+    }
+    .ccc {
+        width: 7rem;
+        margin-right: 2.1rem;
+        @include vCenter; 
+    }
+    .www {
+        width: 30rem;
+        font-size: 1.8rem;
+        font-style: italic;
+        color: $hac;
+        font-weight: lighter;
+        margin-top: 2rem;
+    }
+    .subber {
+        font-style: normal;
+        margin-top: 3rem;
+        color: $mainBlue;
+    }
+    .subberc {
+        font-size: 1.5rem;
+        font-style: normal;
+        margin-top: .8rem;
+        color: $haclight;
+    }
+    
+}

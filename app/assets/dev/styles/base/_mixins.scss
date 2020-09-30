@@ -1,0 +1,10 @@
+@mixin vCenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

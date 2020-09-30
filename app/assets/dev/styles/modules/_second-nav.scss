@@ -1,0 +1,46 @@
+.second-nav {
+    width: 98%;
+    height: 34.1rem;
+    margin-bottom: 6rem;
+    color: $mainBlue;
+    background-color: $background;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    position: relative;
+    left: 1vw;
+
+    &__address {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        &__title {
+            width: 27rem;
+            font-size: 1.6rem;
+            padding: 1.5rem;
+            
+
+            & .c-j, & .i-j {
+                margin-bottom: 3rem;
+                font-size: 2rem;
+            }
+        }
+        &__link {
+            &:first-child {
+                color: $mainBlue;
+                font-size: 1.8rem;
+            }
+            color: $hac;
+            font-size: 1.5rem;
+            font-weight: lighter;
+            & div {
+                margin-bottom: 1.5rem;
+            }
+            .fa {
+                margin-right: 1.5rem;
+                color: $mainRed;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

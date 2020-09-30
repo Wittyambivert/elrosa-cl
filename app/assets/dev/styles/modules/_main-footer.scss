@@ -1,0 +1,24 @@
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+    &__copyright {
+        font-size: 1.5rem;
+        color: lighten($haclight, 30%);
+        font-weight: lighter;
+        margin-bottom: 6rem;
+       
+        &--red {
+            color: $mainRed;
+        }
+    }
+    &__cards {
+        @include vCenter;
+
+        .fa {
+            font-size: 3rem;
+            margin-right: 2rem;
+            color: lighten($haclight, 30%);
+        }
+    }
+}
