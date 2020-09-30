@@ -1,10 +1,16 @@
 .newsletter {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    // grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
+    // justify-items: center;
     margin-bottom: 7.8rem;
+    // background-color: palegreen;
     &__email {
+        margin-left: 5rem;
         text-align: center;
+        width: 60.6rem;
+        // background-color: lightpink;
         &__title {
             font-size: 2.9rem;
             color: $mainBlue;
@@ -50,7 +56,10 @@
         }
     }
     &__social {
+        margin-right: 5rem;
         text-align: center;
+        width: 60.6rem;
+        // background-color: lightpink;
         &__title {
             font-size: 2.9rem;
             color: $mainBlue;
@@ -70,8 +79,13 @@
                 height: 4.5rem;
                 border-radius: 50%;
                 border: 1px solid lighten($haclight, 30%);
-                @include center;
                 margin-right: 2rem;
+
+                @include center;
+                
+                &:last-of-type {
+                    margin-right: 0;
+                }
             }
             .fa, .fab {
                 font-size: 2.2rem;
