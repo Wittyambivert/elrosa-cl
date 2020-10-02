@@ -8,3 +8,30 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin dCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin afterSmall {
+    @media (min-width: 768px) and (max-width: 1200px) {
+        @content;
+    }
+}
+@mixin afterMid {
+    @media (min-width: 1200px) and (max-width: 1366px) {
+        @content;
+    }
+}
+
+// @mixin afterMedium {
+//     @media (min-width: 377px) {
+//         @content;
+//
+//     }
+// }
+
+//and (max-width: 812px) 
