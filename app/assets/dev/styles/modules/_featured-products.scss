@@ -1,25 +1,28 @@
 .featured-products {
     margin-top: 6.7rem;
     margin-bottom: 20rem;
-    width: 100%;
+    // width: 98%;
 
     &__title {
         text-align: center;
         margin-bottom: 3.3rem;
         font-size: 3.4rem;
         color: $mainBlue;
-        // background-color: palegreen;
     }
     &--dimension {
-       width: 24.0rem;
-       height: 31.3rem; 
+
+    }
+    &__image {
+        width: 100%;
+        height: auto;
     }
     &-5 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr auto;
-        grid-template-rows: repeat(2, 50%);
-        grid-row-gap: 14.6rem;
-        // background-color: palegreen;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(10, 10%);
+        grid-row-gap: 1.6rem;
+        // justify-items: center;
+        // text-align: center;
     }
     &__product-title {
         margin-top: 2.5rem;
@@ -29,9 +32,7 @@
     }
     &__stars {
         margin-bottom: 1.5rem;
-        // color: $mainOrange;
         font-size: 1.3rem;
-        // border: 1px solid $haclight;
         color: $haclight;
     }
     &__review {
@@ -43,7 +44,7 @@
         color: $mainRed;
         font-size: 1.52rem;
     }
-    &-fp1 > &__stars {
+    &-fp1 &__stars {
         color: $mainOrange;
     }
 }
