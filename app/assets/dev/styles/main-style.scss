@@ -1,9 +1,11 @@
 @import "normalize.css";
 
+
 @import "../../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 @import "../../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
 
 @import "base/_variables";
 @import "base/_mixins";
@@ -12,7 +14,11 @@
 @import "modules/main-header";
 @import "modules/media-mid/main-header-mid";
 @import "modules/media-large/main-header-large";
+
 @import "modules/main-hero";
+@import "modules/media-mid/main-hero-mid";
+@import "modules/media-large/main-hero-large";
+
 @import "modules/featured-products";
 @import "modules/second-hero";
 @import "modules/testimonials";
