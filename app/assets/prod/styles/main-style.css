@@ -5292,7 +5292,7 @@ li {
   justify-content: center; }
 
 .second-hero--img {
-    background: url(../../dev/images/bg_specials-h2.jpg) no-repeat center center;
+    background: url(../../dev/images/bg_specials-h2.jpg) no-repeat center/cover;
     width: 100%;
     height: 61rem;
     font-size: 10rem;
@@ -5384,6 +5384,91 @@ li {
           display: flex;
           flex-direction: column;
           align-items: center; }
+
+@media (min-width: 1200px) {
+  .second-hero {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center; }
+    .second-hero--img {
+      background: url(../../dev/images/bg_specials-h2.jpg) no-repeat center center;
+      width: 100%;
+      height: 61rem;
+      font-size: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .second-hero--img-c {
+        display: flex;
+        justify-content: center; }
+        .second-hero--img-c__img {
+          margin-right: 3.6rem;
+          width: 36.0rem;
+          height: 46.26rem; }
+        .second-hero--img-c__desc__title {
+          width: 34.8rem;
+          font-size: 6rem;
+          color: #142165;
+          margin-bottom: 1.2rem; }
+        .second-hero--img-c__desc .fifty-percent {
+          color: #fe3060; }
+        .second-hero--img-c__desc__subtitle {
+          font-size: 2.5rem;
+          color: #333;
+          margin-bottom: 2.2rem; }
+        .second-hero--img-c__desc__btn-price {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          margin-bottom: 3.3rem; }
+          .second-hero--img-c__desc__btn-price--btn-n {
+            width: 19.6rem;
+            height: 4rem;
+            background: #333;
+            color: white;
+            font-size: 1.8rem;
+            border: 0;
+            margin-right: 3.3rem; }
+          .second-hero--img-c__desc__btn-price--price-one {
+            font-size: 1.7rem;
+            margin-right: 1.1rem;
+            padding-bottom: .8rem;
+            text-decoration: line-through;
+            color: #999999; }
+          .second-hero--img-c__desc__btn-price--price-two {
+            font-size: 3.3rem;
+            padding-bottom: .3rem;
+            color: #fe3060; }
+        .second-hero--img-c__desc__timer__title {
+          font-size: 1.5rem;
+          font-weight: lighter;
+          color: #333;
+          margin-bottom: 2.2rem; }
+        .second-hero--img-c__desc__timer__time {
+          display: flex;
+          align-items: center; }
+          .second-hero--img-c__desc__timer__time .lll {
+            width: 7rem;
+            height: 7rem;
+            background-color: white;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            font-size: 2.6rem;
+            color: #fe3060;
+            box-shadow: 1 0 4rem #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          .second-hero--img-c__desc__timer__time .jjj {
+            font-size: 1.4rem;
+            color: #666; }
+          .second-hero--img-c__desc__timer__time .ooo {
+            width: 8rem;
+            height: 10rem;
+            margin-right: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
 
 .testimonials {
   width: 100%;
