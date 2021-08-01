@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: montserrat, roboto, sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-items: center;
+}
+.container {
+    width: 98vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}

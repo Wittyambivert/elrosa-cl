@@ -1,0 +1,19 @@
+.sponsors {
+    width: 100%;
+    height: 8.7rem;
+    margin-bottom: 9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    img {
+        opacity: .5;
+        
+        &:first-child {
+            margin-left: 8rem;
+        }
+        &:last-child {
+            margin-right: 8rem;
+        }
+    }
+}

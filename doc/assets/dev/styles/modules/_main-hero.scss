@@ -1,0 +1,29 @@
+.main-hero {
+   position: relative;
+   // width: 100%;
+   
+   &__hero-image {
+      
+   }
+   &__title {
+      // width: 52.8rem;
+      // width: auto;
+      width: 20.6rem;
+      position: absolute;
+      left: 4%;
+      top: 35%;
+      text-align: right;
+
+      &__subtitle {
+         font-size: 2.5rem;
+         font-weight: bold;
+         color: $mainBlue;
+      }
+      &__subtitle-text {
+         font-size: 1.2rem;
+         color: $haclight;
+         font-weight: thin;
+      }
+   }
+    
+}
